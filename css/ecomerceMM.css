@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+text-transform: capitalize;
+}
+body{
+    font-family: arial;
+    width: 1300px;
+    margin: 10px auto;
+}
+
+.cabecalho{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom:solid 2px #94aef2;
+
+}
+
+.intro ul{
+    color: ;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
+    float:left;
+    padding-left: 30px;
+    list-style: none;
+    border-bottom: #32A2F0;
+}
+
+.conta ul {
+    text-align: right;
+    padding: 10px;
+    width: 27.%;
+    float:right;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.conta ul a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+#principal{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.logotipo{
+    margin-left: 100px;
+    float:left;
+}
+.Busca{
+display: inline-block;
+padding:75px;
+font-style:italic;
+font-size:18px;
+border:none;
+height:32px;
+}
+
+#txtBusca{
+background-color:#cce8fc;
+  border:solid 1px;
+  border-radius:15px;
+  padding-left:15px;
+  font-style:italic;
+    text-align: center;
+  font-size:16px;
+  border:none;
+  height:32px;
+  width:500px;
+}
+.carrinho{
+    float: right;
+    padding:75px;
+}
+.menu{
+    background-color: #32A2F0;
+    margin: auto;
+    position: relative;
+    width: 1300px;
+    z-index: 2;
+    text-align: center;
+    padding: 15px;
+}
+.menu ul{
+    list-style: none;
+    position: relative;   
+    display: inline-flex;
+    height: 5px;
+}
+.menu ul li{
+padding-left: 15px;
+}
+.menu ul li ul li{
+    top:0;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu a:hover{
+    background-color: #f2cbf5;
+    padding: 15.6;
+}
+    
+.menuzao{
+    background-color: #32A2F0;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    margin: auto;
+    top: 0;
+}
+
+.menuzao li a{
+}

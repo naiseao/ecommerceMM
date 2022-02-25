@@ -1,0 +1,50 @@
+body{
+    font-family: fantasy;
+    background-image: linear-gradient(white, #c0c1de);
+    background-attachment: fixed;
+}
+#logo{
+    text-align: center;
+    margin: 50px auto 0;
+}
+.formulario{
+    width: 250px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    padding: 20px 22px 22px 25px;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+}
+.segundoform{
+    width: 250px; 
+    margin: 20px auto 0;
+    text-transform: uppercase;
+}
+legend{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#log, #pass, .btn, .voltar{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 3px;
+}
+.btn, .btnn, .voltar{
+    font-family: fantasy;
+    color: darkblue;
+    margin-top: 15px;
+}
+
+a:link, a:visited{
+    color: darkblue;
+    
+}
+input:hover{
+    background-color: #eaf5ff;
+}
+label, legend {
+    color: darkblue;
+}

@@ -1,0 +1,159 @@
+body{
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+}
+
+#principal{
+    width: 1300px;
+    margin: 10px auto;
+}
+
+.logotipo{
+    margin: o -100px;
+}
+
+.header-principal{
+    position: relative;
+}
+
+.header-nav{
+    color:black;
+    font-size: 12px;
+    position:absolute;
+    top: 0px;
+    right: 0;
+}
+
+.header-nav li{
+    color: aliceblue;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    background-color:darkblue; 
+    text-transform: uppercase;
+    
+}
+
+.header-nav li a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#segundo{
+    background-color: darkblue;
+    padding: 1px;
+    text-align: center;
+}
+
+.categorias li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.categorias li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#subsub{
+    text-align: center;
+    color: white;
+}
+
+.subcategrias{
+    background-color: #dd6f00;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 10px
+}
+.txt li {
+    margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+}
+
+div#subsub{
+  display: none;
+}
+div.esconder:hover #subsub{
+  display: block;
+}
+
+.populares{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1px;
+    font-size: 20px;
+}
+.mv{
+    margin: 50px 200px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.produtos{
+    display: inline-block;
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 30px;
+    background-color:darkblue;
+}
+
+.produtos p{
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 0.9
+}
+
+.preco{
+    margin-top: -10px;
+}
+
+footer{
+    position: relative;
+    font-family: sans-serif;
+}
+
+.contact{
+    margin-left: 300px;
+    margin-top: 20px;
+    position: relative;
+    line-height: 0.5;
+}
+
+.contact h3{
+    text-transform: uppercase;
+}
+.contact p{
+    font-size: 14px;
+    font-style: italic;
+}
+.time{
+    text-align: center;
+    line-height: 0.5;
+    margin-left: -200px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0px;
+    left: 1000px
+}
+.time h3{
+    text-transform: uppercase;
+}
+.time p {
+    font-size: 14px;
+    font-style: italic 
+}
+
+footer h3 p{
+    display: inline-block;
+}

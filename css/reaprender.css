@@ -1,0 +1,224 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+    font-family: arial;
+    width: 1300px;
+    margin: 10px auto;
+}
+
+.cabecalho{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom:solid 2px #94aef2;
+
+}
+
+.intro ul{
+    color: ;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
+    float:left;
+    padding-left: 30px;
+    list-style: none;
+    border-bottom: #32A2F0;
+}
+
+.conta{
+    position: relative;
+}
+
+#contahover:hover {
+    text-decoration: underline;
+}
+
+.conta ul {
+    text-align: right;
+    width: 27.%;
+    float:right;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.conta ul li{
+    position: relative;   
+    display: inline-flex;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.conta ul a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+#principal{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.logotipo{
+    float:left;
+}
+.Busca{
+    display: inline-block;
+    padding:75px;
+    margin-left: 25px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+}
+
+#txtBusca{
+    background-color:#cce8fc;
+    border:solid 1px;
+    border-radius:15px;
+    padding-left:15px;
+    font-style:italic;
+    text-align: center;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:600px;
+    }
+
+.carrinho{
+    float: right;
+    margin-top:20px;
+    padding:50px;
+}
+
+.menu{
+    background-color: #32A2F0;
+    margin: auto;
+    position: relative;
+    width: 1280px;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    list-style: none;
+    border-radius: 2.5px;
+}
+
+.list1{
+    list-style: none;
+    position: relative;   
+    display: inline-flex;
+    height: 5px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left:40px;
+}
+
+.list1 a:hover{
+    background-color: #f2cbf5;
+    padding: 10px;
+    margin: auto;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#f2cbf5;
+    display:none;
+    border-radius:1.7px;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+display:block;
+width:150px;
+padding:10px;
+}
+
+.mv{
+    margin: 50px 200px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.maisvendidos{
+    background-color: #32A2F0;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius:1.7px;
+}
+
+.imgprodutos{
+    display: inline-block;
+    background-color: #32A2F0;
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 30px;
+
+}
+
+.preco legendaimg{
+    background-color: #32A2F0;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.produtos p{
+    padding: 3px;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #ededed;
+    height: 105px;
+    margin: 0;
+}
+
+.tudodofooter{
+    margin-left: 25px;
+}
+
+#faleconosco{
+    padding: 15px;
+}
+
+.contato {
+    display: inline-block;
+}
+
+#icon{
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 30px
+}
+
+.horariodeatendimento{
+    
+    margin-left: 130px;
+    display: inline-block;
+}
+
+#atendimento {
+    padding: 15px;
+    text-align: left;
+}
+
+#horario{
+    margin-left: 30px;
+
+}
